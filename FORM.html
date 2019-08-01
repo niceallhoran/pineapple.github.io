@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign in</title>
+	<link href="css/mainform.css" rel="stylesheet">
+	
+	<!--chenicon-->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	
+	<!--lightbox-->
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	
+	<!--wow-->
+	
+	 <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+	
+</head>
+	
+
+<body>
+	
+<div class="outer">
+		<div class="header" id="myHeader">
+
+	
+			<div class="logo wow bounceInLeft">
+				<br><a href="indexx.html">
+				<img src="image/Pineapple..png"></a>
+			</div>
+		  <div class="iconleft wow bounceInDown">
+				
+				<br>
+				
+			  <div class="menu">
+					<ul>
+					<li><a href="Newwomen.html">NEW</a></li>
+						
+					<li><a href="Women.html">WOMEN</a></li>
+					<li><a href="men.html">MEN</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+				
+					</ul>
+				  
+			  </div>
+					
+				
+		  </div>
+		
+		  <div class="iconright wow bounceInRight">
+			  <br>
+					<div class="menu2">
+						<ul>
+						<li><a href="#">Search &nbsp; <i class="fa fa-search"></i> </a></li>
+						<li><a href="FORM.html">Sign in &nbsp;  <i class='fas fa-shopping-cart'></i></a></li>
+						</ul>
+					</div>
+		  </div>
+</div>
+		<div class="clear"></div>
+	
+	<div class="background">
+		
+	  <div class="white">
+			<div class="login">LOG IN <div class="login1"></div>
+			
+			</div>
+			<div class="signup"><a href="SIGNUP.html"> SIGN UP <div class="signup1"></div></a>
+			
+			</div>
+			<div class="item">
+				<input type="text" id="fname" name="firstname" placeholder="Username"> 
+			
+				<input type="text" id="fname" name="firstname" placeholder="Password">
+		    </div>
+		  
+		  <div class="forgot">Forgot your password?</div>
+		  <div class="form5"><div class="form5text"><font>LOG IN</font></div></div>
+		  <div class="no">No account?</div>
+		  <div class="sign"><a href="SIGNUP.html">SIGN UP</a></div>
+		  
+		</div>
+		
+		</div>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	</div>
+	
+	
+	
+	
+	
+		<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+	
+		
+		
+		
+	
+	
+	<script>            
+	jQuery(document).ready(function() {
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.crunchify-top').fadeIn(duration);
+			} else {
+				jQuery('.crunchify-top').fadeOut(duration);
+			}
+		});
+ 
+		jQuery('.crunchify-top').click(function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+	});
+
+</script>
+	
+	
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	
+	
+	<script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

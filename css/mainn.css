@@ -1,0 +1,786 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outer
+{
+	width: 1441px;
+	height: auto;
+	background: #FFFFFF;
+	margin: 0 auto;
+	
+}
+
+.crunchify-top:hover {
+	color: #fff !important;
+	background-color: #121212;
+	text-decoration: none;
+}
+ 
+.crunchify-top {
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	width: 3.2rem;
+	height: 3.2rem;
+	line-height: 3.2rem;
+	font-size: 1.4rem;
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	border-radius: 3.2rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.header
+{
+	width: 1501px;
+	height: 90px;
+	background: #FFFFFF;
+	z-index: 100;
+
+}
+
+.logo
+{
+	width: 20%;
+	height: 90px;
+	background: #FFFFFF;
+	float: left;
+	padding: 0px 0px 0px 40px;
+}
+
+.iconleft
+{
+	width: 55%;
+	height: 90px;
+	background: #FFFFFF;
+	float: left;
+	font-family: mySecondFont;
+	
+}
+
+.iconright
+{
+	width: 20%;
+	height: 80px;
+	background: #FFFFFF;
+	float: left;
+	font-family: mySecondFont;
+}
+
+@font-face 
+{
+  font-family: myFirstFont;
+  src:url(../font/Josefin_Sans/JosefinSans-Light.ttf);
+}
+
+@font-face 
+{
+  font-family: mySecondFont;
+  src: url(../font/Josefin_Sans/JosefinSans-Bold.ttf)
+}
+
+@font-face 
+{
+  font-family: myThirdFont;
+  src: url(../font/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face 
+{
+  font-family: myForthFont;
+  src: url(../font/Josefin_Sans/JosefinSans-Italic.ttf);
+}
+
+h2
+{
+	font-family: mySecondFont;
+}
+
+.clear
+{
+	clear: both;
+}
+.menu
+{
+	width: 360px;
+	height: 50px;
+	background: #FFFFFF;
+	margin: auto
+}
+
+.menu ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 20px;
+	position: relative;
+	
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: black
+}
+
+
+.menu ul li:hover a
+{
+	color: #7B7B7B;
+}
+
+
+.menu2
+{
+	width:100%;
+	height: 60px;
+	background: #FFFFFF;
+	
+}
+
+.menu2 ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.menu2 ul li
+{
+	padding: 20px 30px;
+	float: right;
+}
+
+.menu2 ul li a
+{
+	text-decoration: none;
+	color: black
+}
+
+
+.menu2 ul li:hover a
+{
+	color: #7B7B7B;
+}
+
+.clip
+{
+	width: 1441px;
+	height: 700px;
+}
+
+
+
+.slider
+{
+	width: 1441px;
+	height: 970px;
+	background: #FFFFFF;
+}
+
+.content
+{
+	width: 1441px;
+	height: 1040px;
+	background: #FFFFFF;
+	position: relative;
+}
+
+.content02
+{
+	width: 40%;
+	height: 90%;
+	float: left;
+	padding: 5% 5% 5% 10%;
+	font-family: myFirstFont;
+	position: absolute;
+	left: 80px;
+}
+
+.content03
+{
+	width: 50%;
+	height: 90%;
+	background: #FFFFFF;
+	float: right;
+	padding: 5%;
+}
+
+.discover
+{
+	width: 1441px;
+	height: 1770px;
+	background: #FFFFFF;
+	text-align: center;
+	
+}
+
+.discovertext
+{
+	width: 101.5%;
+	height: 210px;
+	background: #FFFFFF;
+	padding: 5%;
+	text-align: center;
+	font-family: myThirdFont;
+}
+
+.discoverimg
+{
+	width: 99.4%;
+	height: 90%;
+	background: #FFFFFF;
+	padding: 0;
+}
+
+.women
+{
+	width: 449px;
+	height: 566px;
+	background: #FFFFFF;
+	float: left; 
+	padding: 10px;
+	position: relative;
+}
+
+.buttondis
+{
+	width: 216px;
+	height: 70px;
+	background: #000000;
+	position: absolute;
+	top: 450px;
+	left: 125px;
+	opacity: 0.5;
+}
+
+.blog
+{
+	width: 449px;
+	height: 566px;
+	background: #FFFFFF;
+	float: left;
+	padding: 10px 30px 10px 45px;	
+	position: relative;
+}
+
+.buttonblog
+{
+	width: 216px;
+	height: 70px;
+	background: #000000;
+	position: absolute;
+	top: 450px;
+	left: 170px;
+	opacity: 0.5;
+}
+
+.accessories
+{
+	width: 449px;
+	height: 566px;
+	background: #FFFFFF;
+	float: right;
+	padding: 10px 10px 20px 15px;
+	position: relative;
+	
+	
+}
+
+.buttonacc
+{
+	width: 216px;
+	height: 70px;
+	background: #000000;
+	position: absolute;
+	top: 450px;
+	left: 140px;
+	opacity: 0.5;
+}
+
+
+.new
+{
+	width: 1441;
+	height: 961px;
+	background: #FFFFFF;
+	float: left;
+	padding: 30px 10px 20px 10px;
+	position: relative;
+}
+
+.buttonnew
+{
+	width: 216px;
+	height: 70px;
+	background: #000000;
+	position: absolute;
+	top: 850px;
+	left: 618px;
+	opacity: 0.5;
+}
+
+.buttonDiscover
+{
+	width: 200px;
+height: 50px;
+font-weight: 600px;
+text-align: center;
+	color: #FFFFFF;
+font-size: 24px;
+margin-top: 20px;
+margin-left: 7px;
+	font-family: myThirdFont;
+transition: all 0.1s linear;
+	list-style: none;
+}
+
+.buttonDiscover a
+{
+	text-decoration: none;
+}
+
+.buttonDiscover:hover
+{
+	transform: scale(1.6);	
+}
+
+
+.garment
+{
+	width: 94%;
+	height: 2090px;
+	padding: 3% 5% 3% 7%;
+	text-align: center;
+	font-family: myFirstFont;
+}
+
+.coats
+{
+	width: 495px;
+	height: 692px;
+	background: #FFFFFF;
+	padding: 0% 3%;
+	float: left;
+}
+
+.coats img
+{
+	transition: all 0.2s linear;
+}
+
+.coats:hover img
+{
+	opacity: 0.8;
+	transform: scale(0.98);
+}
+
+.sweaters
+{
+	width: 495px;
+	height: 692px;
+	background: #FFFFFF;
+	padding: 0% 3%;
+	float: right;
+
+}
+
+.sweaters img
+{
+	transition: all 0.2s linear;
+}
+
+.sweaters:hover img
+{
+	opacity: 0.8;
+	transform: scale(0.98);
+}
+
+.dresses
+{
+	width: 495px;
+	height: 200px;
+	background: #FFFFFF;
+	padding: 2% 0% 2% 6%;
+	float: left;
+	font-family: myFirstFont;
+}
+
+.jackets
+{
+	width: 495px;
+	height: 200px;
+	background: #FFFFFF;
+	padding: 2% 0% 2% 6%;
+	float: right;
+	font-family: myFirstFont;
+}
+
+.commited
+{
+	width: 1441px;
+	height: 1170px;
+	background: #FFFFFF;
+	float: left;
+	position: relative;
+}
+
+.commitedtext
+{
+	width: 993px;
+	height: 436px;
+	position: absolute;
+	left: 224px;
+	top: 367px;
+}
+
+
+
+.newmen
+{
+	width: 97%;
+	height: 2130px;
+	background: #FFFFFF;
+	padding: 3%;
+	text-align: center;
+	font-family: myFirstFont;
+}
+
+.newmen a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.newmen a:hover
+{
+	color: #727272;
+}
+
+
+.newmen img
+{
+	transition: all 0.2s linear;
+}
+
+.newmen:hover img
+{
+	transform: scale(0.95);
+}
+
+.dressbig
+{
+	width: 99%;
+	height: 750px;
+	background: #FFFFFF;
+	padding: 1%;
+	text-align: center;
+	font-family: myFirstFont;
+}
+
+.dressbig a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.dressbig a:hover
+{
+	color: #727272;
+}
+
+
+.girl
+{
+	width: 335px;
+	height: 469px;
+	background: #FFFFFF;
+	float: left;
+	margin: 7px;
+}
+
+.girl img
+{
+	transition: all 0.2s linear;
+}
+
+.girl:hover img
+{
+	opacity: 0.8;
+	transform: scale(0.95);
+}
+
+
+.textgirl
+{
+	width: 335px;
+	height: 100px;
+	background: #FFFFFF;
+	float: left;
+	margin: 7px;
+	font-family: myFirstFont;
+}
+
+.button
+{
+	width: 216px;
+	height: 54px;
+	background: #FFFFFF;
+	border: 1px #000000 solid;
+	text-align: center;
+	
+}
+.buttonDresses
+{width: 200px;
+height: 50px;
+font-weight: 600px;
+text-align: center;
+font-size: 24px;
+margin-top: 10px;
+margin-left: 7px;
+	font-family: mySecondFont;
+}
+
+.buttonDresses a
+{
+	text-decoration: none;
+}
+
+.buttonDresses:hover
+{
+	color: #5C5B5B;
+	transform: scale(0.95);
+}
+
+
+.footer
+{
+	width: 1441px;
+	height: 550px;
+	background: #E5E5E5;
+	padding: 2% 0%;
+	text-align: center;
+	position: relative;
+	font-family: myThirdFont;
+}
+
+.menu3
+{
+	width: 37%;
+	height: 50px;
+	background: #E5E5E5;
+	position: absolute;
+	left:460px;
+	top: 80px;
+}
+
+.menu3 ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu3 ul li
+{
+	float: left;
+	padding: 20px;
+	position: relative;
+	
+}
+
+.menu3 ul li a
+{
+	text-decoration: none;
+	color: black
+}
+
+
+.menu3 ul li:hover a
+{
+	color: #5C5B5B;
+}
+
+.form
+{
+	width: 700px;
+	height: 50px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 370px;
+	top: 200px;
+	
+}
+
+.form2
+{
+	width: 500px;
+	height: 30px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 470px;
+	top: 250px;
+}
+
+.form3
+{
+	width: 500px;
+	height: 40px;
+	background: #121212;
+	position: absolute;
+	left: 470px;
+	top: 290px;
+	transition: all linear;
+}
+
+.form3:hover
+{
+opacity: 0.8;
+	transform: scale(0.99);	
+}
+.form3text
+{
+	width: 200px;
+height: 50px;
+text-align: center;
+margin-top: 6px;
+margin-left: 152px;
+	font-family: myThirdFont;
+	color: #FFFFFF;	
+}
+
+.iconfooter1
+{
+	width: 35px;
+	height: 35px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 600px;
+	top: 400px;
+	padding: 10px;	
+}
+
+.iconfooter1 img
+{
+	transition: all linear;
+}
+
+.iconfooter1 img:hover
+{
+opacity: 0.5;
+	transform: scale(0.99);
+}
+.iconfooter2
+{
+	width: 35px;
+	height: 35px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 675px;
+	top: 400px;
+	padding: 10px;
+	
+}
+.iconfooter2 img
+{
+	transition: all linear;
+}
+
+.iconfooter2 img:hover
+{
+opacity: 0.5;
+	transform: scale(0.99);
+}
+.iconfooter3
+{
+	width: 35px;
+	height: 35px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 750px;
+	top: 400px;
+	padding: 10px;
+}
+
+.iconfooter3 img
+{
+	transition: all linear;
+}
+
+.iconfooter3 img:hover
+{
+opacity: 0.5;
+	transform: scale(0.99);
+}
+
+.iconfooter4
+{
+	width: 35px;
+	height: 35px;
+	background: #E5E5E5;
+	position: absolute;
+	left: 825px;
+	top: 400px;
+	padding: 10px;
+}
+
+.iconfooter4 img
+{
+	transition: all 0.1s linear;
+}
+
+.iconfooter4 img:hover
+{
+opacity: 0.5;
+	transform: scale(0.99);
+}
+
+input 
+{
+  width: 100%;
+}
+
+/*slideshow*/
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+/*wow*/
+
+ .wow:first-child {
+      visibility: hidden;
+    }
